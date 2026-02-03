@@ -1,6 +1,10 @@
 import './App.css';
 import ExampleComponents from './ExampleComponents';
+import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExampleProps from './ExampleProps';
+import ExamplePropDestructuring from './ExamplePropsDestructuring';
+import ExampleStateNotSynchronous from './ExampleSetStateIsNotSynchronous';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 
@@ -16,6 +20,10 @@ export default function App() {
       />
       <ExampleStateCounter />
       <ExampleStateEmail />
+      <ExampleMappingOverArrays />
+      <ExampleConditionalRendering />
+      <ExamplePropDestructuring />
+      <ExampleStateNotSynchronous />
       <br />
       <br />
       <br />
