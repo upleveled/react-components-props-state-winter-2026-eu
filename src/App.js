@@ -15,6 +15,7 @@ import ExamplePropDestructuring from './ExamplePropsDestructuring';
 import ExampleStateNotSynchronous from './ExampleSetStateIsNotSynchronous';
 import ExampleStateArraysOfObjects from './ExampleStateArraysOfObjects';
 import ExampleStateCounter from './ExampleStateCounter';
+import ExampleStateDataManipulation from './ExampleStateDataManipulation';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStyling from './ExampleStyling';
 import ExampleUseeffect from './ExampleUseeffect';
@@ -48,6 +49,7 @@ export default function App() {
       <ExampleStateArraysOfObjects />
       <ExampleUseeffect />
       <ExampleUseeffectDataFetching />
+      <ExampleStateDataManipulation />
       <br />
       <br />
       <br />
